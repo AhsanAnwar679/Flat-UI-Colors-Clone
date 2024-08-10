@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: black; 
+}
+
+.header-left, .header-center, .header-right {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.back-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black; 
+}
+
+.copy-format select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.main-container {
+  width: 100%;
+  height: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+  overflow: scroll;
+}
+
+.color1, .color2, .color3, .color4, .color5,
+.color6, .color7, .color8, .color9, .color10,
+.color11, .color12, .color13, .color14, .color15,
+.color16, .color17, .color18, .color19, .color20 {
+  height: 200px;
+  width: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  box-sizing: border-box;
+}
+
+.copy-button {
+  display: none;
+  position: absolute;
+  color: white; 
+  border: 2px solid white; 
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.color-name {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  color: white;
+}
+
+.color1:hover .copy-button,
+.color2:hover .copy-button,
+.color3:hover .copy-button,
+.color4:hover .copy-button,
+.color5:hover .copy-button,
+.color6:hover .copy-button,
+.color7:hover .copy-button,
+.color8:hover .copy-button,
+.color9:hover .copy-button,
+.color10:hover .copy-button,
+.color11:hover .copy-button,
+.color12:hover .copy-button,
+.color13:hover .copy-button,
+.color14:hover .copy-button,
+.color15:hover .copy-button,
+.color16:hover .copy-button,
+.color17:hover .copy-button,
+.color18:hover .copy-button,
+.color19:hover .copy-button,
+.color20:hover .copy-button {
+  display: block;
+}
